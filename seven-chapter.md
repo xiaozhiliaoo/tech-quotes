@@ -482,7 +482,7 @@ Java和C++之间有一堵内存动态分配和垃圾收集技术所围成的高�
 
 * 787 Hybris Request Model:
 
-![](D:\gitSpace\github\tech-quotes\img\chapter7\hybris-resuqestmodel.png)
+![](/img/chapter7/hybris-resuqestmodel.png)
 
 ---
 
