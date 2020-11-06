@@ -546,3 +546,20 @@ Java和C++之间有一堵内存动态分配和垃圾收集技术所围成的高�
 
 ---
 
+* 796 Java并发提供了三个核心抽象概念(任务，任务提交，任务执行)，具体来说：1 任务，从Runnable，Callable，FutureTask，到ForkJoinTask 2 任务提交 ExecutorService，实现submit，invoke方法，核心子类：AbstractExecutorService作为骨架实现 3 是任务执行Executor，核心子类ThreadPoolExecutor(核心方法execute)，ForkjoinPool(因为重写了提交机制，所以核心方法submit和execute)，纯接口包含了命令模式，模板模式，状态机模式等等。这就意味着你可以自定义提交和执行机制。体现了多种策略和实现分别，非常漂亮。
+
+---
+
+* 797 ExecutorService#submit 提交的是FutureTask，返回的也是FutureTask，FutureTask对Runnable和Callable进行了封装，使得任务有了状态，可以判断是否结束，
+可以取消任务。
+
+---
+
+* 798 框架和人一样，都是有等级和灵魂之分的，行尸走肉和富有灵魂和激情的人，完全不一样。Spring框架的灵魂在于Bean，Junit灵魂在于Tester,Suitcase,Runner. Tomcat在于Container,Pipeline,Valve.
+ .灵魂的含义是有一致性，强有力的概念，最核心的概念，是框架创造的概念。
+
+---
+
+* 799 写Java程序的只有读过Effectvie Java的和没有读过的。
+ 
+---

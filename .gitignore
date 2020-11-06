@@ -122,6 +122,8 @@ local.properties
 
 ## Plugin-specific files:
 
+.idea/misc.xml
+
 # IntelliJ
 **/out/
 
@@ -174,3 +176,17 @@ release.properties
 **/.DS_Store
 **/.springBeans
 
+
+# User-specific stuff:
+.idea/*
+.idea/inspectionProfiles
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+
+!/.gitignore
