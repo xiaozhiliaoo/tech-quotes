@@ -11,3 +11,5 @@
 * 802 Effevtive Java：JDK源码指南。
 
 ---
+
+* Spring核心：给POJO提供声明式服务
